@@ -1,7 +1,11 @@
+import Header from "./Header/header";
+
 const LandingPage = (props) => {
-    return(
-        <div>Inside Landing Page</div>
-    )
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 };
 
 export default LandingPage;
